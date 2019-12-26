@@ -10,13 +10,13 @@ const Contact = (() => {
     console.log('testing contact');
   }
 
-  const contactClass = document.querySelectorAll('.contact');
-
   const showContact = () => {
+    const contactClass = document.querySelector('.contact');
     contactClass.style.display = 'block';
   }
   
   const removeContact = () => {
+    const contactClass = document.querySelector('.contact');
     contactClass.style.display = 'none';
   }
   

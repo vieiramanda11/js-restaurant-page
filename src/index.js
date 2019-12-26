@@ -8,34 +8,28 @@ import Menu from './components/menu';
 
 const RenderPage = () => {
   RenderNavbar();
-  About.renderAbout();
-  Contact.renderContact();
-  Menu.renderMenu();
-  // const content = document.getElementById('content');
-  // const aboutTab = document.getElementById('about');
-  // const contactTab = document.getElementById('contact');
-  // const menuTab = document.getElementById('menu');
+  // About.renderAbout();
+  // Contact.renderContact();
+  // Menu.renderMenu();
 
-  // // const classAbout = document.querySelector('.about');
-  // // const classMenu = document.querySelector('.menu');
-  // // const classContact = document.querySelector('.contact');
+  const aboutTab = document.getElementById('about');
+  const contactTab = document.getElementById('contact');
+  const menuTab = document.getElementById('menu');
 
-  // document.getElementById('about').addEventListener('click', function() {
-  //   RenderAbout();
-  // });
+  aboutTab.addEventListener('click', Menu.removeMenu);
+  aboutTab.addEventListener('click', Contact.removeContact);
+  aboutTab.addEventListener('click', About.renderAbout);
+  aboutTab.addEventListener('click', About.showAbout);
 
-  // document.getElementById('contact').addEventListener('click', RenderContact);
-  // document.getElementById('contact').addEventListener('click', RemoveAbout);
+  contactTab.addEventListener('click', Menu.removeMenu);
+  contactTab.addEventListener('click', About.removeAbout);
+  contactTab.addEventListener('click', Contact.renderContact);
+  contactTab.addEventListener('click', Contact.showContact);
 
-
-  // document.getElementById('menu').addEventListener('click', function() {
-
-  //   RenderMenu();
-  // });
-
-  // contactTab.getElementById('contact').addEventListener('click', RenderContact);
-
-  // menuTab.getElementById('menu').addEventListener('click', RenderMenu);
+  menuTab.addEventListener('click', About.removeAbout);
+  menuTab.addEventListener('click', Contact.removeContact);
+  menuTab.addEventListener('click', Menu.renderMenu);
+  menuTab.addEventListener('click', Menu.showMenu);
   
 }
 

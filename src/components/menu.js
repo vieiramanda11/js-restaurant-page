@@ -10,13 +10,13 @@ const Menu = (() => {
     console.log('testing menu');
   }
   
-  const menuClass = document.querySelectorAll('.menu');
-
   const showMenu = () => {
+    const menuClass = document.querySelector('.menu');
     menuClass.style.display = 'block';
   }
   
   const removeMenu = () => {
+    const menuClass = document.querySelector('.menu');
     menuClass.style.display = 'none';
   }
 

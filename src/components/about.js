@@ -9,13 +9,13 @@ const About =(() => {
     console.log('testing about');
   }
 
-  const aboutClass = document.querySelectorAll('.about');
-
   const showAbout = () => {
+    const aboutClass = document.querySelector('.about');
     aboutClass.style.display = 'block';
   }
   
   const removeAbout = () => {
+    const aboutClass = document.querySelector('.about');
     aboutClass.style.display = 'none';
   }
 
