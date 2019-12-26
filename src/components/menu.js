@@ -8,7 +8,7 @@ const Menu = (() => {
     const content = document.getElementById('content');
     const menu = document.createElement('div');
   
-    menu.innerHTML = `<h1>Menu!</h1>
+    menu.innerHTML = `<h1>Menu</h1>
       <div class="row">
         <div class="col s12 m4">
           <div class="card small">

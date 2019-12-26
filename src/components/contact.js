@@ -1,5 +1,3 @@
-// import ContactImage from '../images/contact.png';
-
 const Contact = (() => {
 
   const renderContact = () => {
@@ -38,8 +36,6 @@ const Contact = (() => {
     contact.classList.add('contact');
     contact.style.display = 'none';
     content.appendChild(contact);
-    // const image = document.getElementById('contact-img');
-    // image.src = ContactImage;
   }
 
   const showContact = () => {
