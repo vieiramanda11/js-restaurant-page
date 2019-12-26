@@ -3,11 +3,11 @@ const About =(() => {
     const content = document.getElementById('content');
     const about = document.createElement('div');
   
-    about.innerHTML = `<h2>Testing ABOUT!</h2>`;
+    about.innerHTML = `
+      <h1 class="center-align">THIS IS AN ABOUT PAGE</h1>`;
     about.classList.add('about');
     about.style.display = 'none';
     content.appendChild(about);
-    console.log('testing about');
   }
 
   const showAbout = () => {

@@ -1,11 +1,15 @@
+/* body {
+  background-color: #e53935;
+} */
+
 nav {
   background-color: #e53935;
 }
 
-.remove {
-  display: none;
+h1 {
+  color: #e53935;
 }
 
-.add {
-  display: block;
+.main-img {
+  width: 100%;
 }
