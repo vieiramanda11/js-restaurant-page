@@ -6,6 +6,7 @@ const Contact = (() => {
   
     contact.innerHTML = `<h2>Testing Contact!</h2>`;
     contact.classList.add('contact');
+    contact.style.display = 'none';
     content.appendChild(contact);
     console.log('testing contact');
   }

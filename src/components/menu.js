@@ -6,6 +6,7 @@ const Menu = (() => {
   
     menu.innerHTML = `<h2>Testing Menu!</h2>`;
     menu.classList.add('menu');
+    menu.style.display = 'none';
     content.appendChild(menu);
     console.log('testing menu');
   }

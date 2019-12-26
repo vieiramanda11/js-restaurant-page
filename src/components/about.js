@@ -5,6 +5,7 @@ const About =(() => {
   
     about.innerHTML = `<h2>Testing ABOUT!</h2>`;
     about.classList.add('about');
+    about.style.display = 'none';
     content.appendChild(about);
     console.log('testing about');
   }

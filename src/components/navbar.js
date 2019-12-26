@@ -4,7 +4,7 @@ const RenderNavbar = () => {
   
   navbar.innerHTML = `
   <div class="nav-wrapper navigation navigation container">
-    <a id ="init" href="#" class="brand-logo">Logo</a>
+    <a id ="init" href="#" class="brand-logo">Vegan Restaurant</a>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
       <li><a id="about" href="#">About</a></li>
       <li><a id="menu" href="#">Menu</a></li>
