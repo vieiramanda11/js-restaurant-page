@@ -1,4 +1,3 @@
-import _ from 'lodash'
 import './style.css';
 import MainPage from './components/mainpage';
 import About from './components/about';
@@ -12,7 +11,7 @@ const RenderPage = () => {
   Contact.renderContact();
   Menu.renderMenu();
 
-  const logoTab = document.getElementById('init')
+  const logoTab = document.getElementById('init');
   const aboutTab = document.getElementById('about');
   const contactTab = document.getElementById('contact');
   const menuTab = document.getElementById('menu');
@@ -36,7 +35,6 @@ const RenderPage = () => {
   menuTab.addEventListener('click', Contact.removeContact);
   menuTab.addEventListener('click', MainPage.removeMainPage);
   menuTab.addEventListener('click', Menu.showMenu);
-  
-}
+};
 
 RenderPage();

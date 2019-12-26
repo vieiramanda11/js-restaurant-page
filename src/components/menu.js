@@ -3,11 +3,10 @@ import Image2 from '../images/pasta.jpg';
 import Image3 from '../images/pizza.jpg';
 
 const Menu = (() => {
-
   const renderMenu = () => {
     const content = document.getElementById('content');
     const menu = document.createElement('div');
-  
+
     menu.innerHTML = `<h1>Menu</h1>
       <div class="row">
         <div class="col s12 m4">
@@ -50,23 +49,23 @@ const Menu = (() => {
     image2.src = Image2;
     const image3 = document.getElementById('img-3');
     image3.src = Image3;
-  }
-  
+  };
+
   const showMenu = () => {
     const menuClass = document.querySelector('.menu');
     menuClass.style.display = 'block';
-  }
-  
+  };
+
   const removeMenu = () => {
     const menuClass = document.querySelector('.menu');
     menuClass.style.display = 'none';
-  }
+  };
 
   return {
     renderMenu,
     showMenu,
-    removeMenu
-  }
+    removeMenu,
+  };
 })();
 
 export default Menu;

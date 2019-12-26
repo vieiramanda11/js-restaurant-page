@@ -1,9 +1,8 @@
 const Contact = (() => {
-
   const renderContact = () => {
     const content = document.getElementById('content');
     const contact = document.createElement('div');
-  
+
     contact.innerHTML = `
     <h1 class="center-align">CONTACT US</h1>
     <div class="row">
@@ -36,23 +35,23 @@ const Contact = (() => {
     contact.classList.add('contact');
     contact.style.display = 'none';
     content.appendChild(contact);
-  }
+  };
 
   const showContact = () => {
     const contactClass = document.querySelector('.contact');
     contactClass.style.display = 'block';
-  }
-  
+  };
+
   const removeContact = () => {
     const contactClass = document.querySelector('.contact');
     contactClass.style.display = 'none';
-  }
-  
+  };
+
   return {
     renderContact,
     showContact,
-    removeContact
-  }
+    removeContact,
+  };
 })();
 
 export default Contact;
