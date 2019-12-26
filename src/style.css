@@ -1,0 +1,11 @@
+nav {
+  background-color: #e53935;
+}
+
+.remove {
+  display: none;
+}
+
+.add {
+  display: block;
+}

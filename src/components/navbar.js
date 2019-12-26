@@ -6,9 +6,9 @@ const RenderNavbar = () => {
   <div class="nav-wrapper navigation navigation container">
     <a id ="init" href="#" class="brand-logo">Logo</a>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
-      <li><a id="about" href="#about">About</a></li>
-      <li><a id="menu" href="#menu">Menu</a></li>
-      <li><a id="contact" href="#contact">Contact</a></li>
+      <li><a id="about" href="#">About</a></li>
+      <li><a id="menu" href="#">Menu</a></li>
+      <li><a id="contact" href="#">Contact</a></li>
     </ul>
   </div>`;
 
