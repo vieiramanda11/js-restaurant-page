@@ -1,0 +1,28 @@
+{
+  "name": "js-restaurant-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vieiramanda11/js-restaurant-page.git"
+  },
+  "author": "Amanda Vieira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vieiramanda11/js-restaurant-page/issues"
+  },
+  "homepage": "https://github.com/vieiramanda11/js-restaurant-page#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
