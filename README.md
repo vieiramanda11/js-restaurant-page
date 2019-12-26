@@ -11,10 +11,6 @@ Simple restaurant page built with vanilla JavaScript and Webpack
 - Webpack
 - Materialize
 
-## Live Demo
-
-[Live Demo Link](https://vieiramanda11.github.io/js-restaurant-page/)
-
 
 ## Author
 
